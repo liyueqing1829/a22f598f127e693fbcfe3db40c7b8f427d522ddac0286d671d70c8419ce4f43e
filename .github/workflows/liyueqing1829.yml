@@ -3,18 +3,21 @@ name: liyueqing1829
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
-jobs:  # 9496
+    - cron: '12 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liyueqing1829
         env:
-          dggt176: ${{ secrets.dggt176 }}
+          hdh196: ${{ secrets.hdh196 }}
         run: |
-          echo $dggt176 | jq -r .mhgbv8 | /bin/bash
-          echo $fqo20 | jq -r .j73 | /bin/bash
-          echo $vxh81414 | jq -r .ui95589 | /bin/bash
-          echo $mqs55 | jq -r .em6266 | /bin/bash
+          echo $hdh196 | jq -r .ohhd2 | /bin/bash
+          echo $rs8 | jq -r .mgmtk511 | /bin/bash
+          echo $zoe5 | jq -r .oesr1181 | /bin/bash
+          echo $i33144 | jq -r .v69441 | /bin/bash
+          echo $wkobj18967 | jq -r .zmvz2 | /bin/bash
 

